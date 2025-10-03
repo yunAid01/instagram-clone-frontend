@@ -88,7 +88,7 @@ export default function PostDetailPage({ params }: PostPageProps) {
               ))}
             </div>
           </div>
-          {/* --- 여기까지 --- */}
+          {/* --- 여기까지 --- */}  
 
         </div>
       </div>
