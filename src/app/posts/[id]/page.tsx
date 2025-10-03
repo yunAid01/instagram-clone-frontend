@@ -5,18 +5,8 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { Post } from '@/types';
 
-// Post 타입 정의 (나중에는 별도 파일로 분리하는 것이 좋습니다)
-interface Post {
-  id: number;
-  caption: string;
-  imageUrl: string;
-  author: {
-    username: string;
-  };
-  likes: any[];
-  comments: any[];
-}
 
 // Next.js가 페이지 컴포넌트에 props로 전달해주는 params의 타입 정의
 interface PostPageProps {
